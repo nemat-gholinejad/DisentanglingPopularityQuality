@@ -1,0 +1,7 @@
+embedding_size: 64
+epochs: 1000
+batch_size: 1024
+lr: !!float 1e-3
+l2-reg: !!float 1e-4
+topk: 20
+data_split: [ 7, 1, 2 ]
